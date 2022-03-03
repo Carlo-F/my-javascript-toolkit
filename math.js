@@ -1,0 +1,8 @@
+Math.pow(2, 16)
+Math.round(.6)
+Math.ceil(.6)
+Math.floor(.6)
+Math.abs(-4)
+Math.max(x, y, z)
+Math.min(x, y, z)
+Math.random()
