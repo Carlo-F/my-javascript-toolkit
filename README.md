@@ -1,4 +1,5 @@
 # My JavaScript Toolkit
+
 A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc.)
 
 ## APIs
@@ -7,8 +8,18 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - Set Timeout. [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 
 ## Basics
+
 - Math
 - Date
 - Strings
 - Pattern matching
 - Useful methods
+
+
+
+----
+
+Sources
+
+- MDN Web Docs
+- Javascript: the Definitive Guide by David Flanagan ISBN 9781491952023 
