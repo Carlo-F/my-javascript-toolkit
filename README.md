@@ -15,6 +15,7 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - Operators
 - Statements
 - Objects
+- Arrays
 - Pattern matching
 - Useful methods
 
