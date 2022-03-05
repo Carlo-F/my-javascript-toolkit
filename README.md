@@ -12,6 +12,9 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - Math
 - Date
 - Strings
+- Operators
+- Statements
+- Objects
 - Pattern matching
 - Useful methods
 
