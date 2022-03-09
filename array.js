@@ -6,7 +6,7 @@ let copy = Array.from(primes);
 copy.slice(0,3);
 copy.splice(7);
 copy.fill(9,2);
-primes.include(2); //true
+primes.includes(2); //true
 
 primes.sort();
 primes.sort((a,b) => b -a);
