@@ -36,3 +36,6 @@ let o5 = {
   get accessorProp() {return this.dataProp;},
   set accessorProp(value) {this.dataProp = value;}
 };
+
+let o6 = {x:1, y:'2'};
+let values = Object.values(o6); // [1, '2']
