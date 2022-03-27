@@ -5,3 +5,7 @@ pattern.test(text)
 text.search(pattern)
 text.match(pattern)
 text.replace(pattern, "#")
+
+
+let p = new RegExp("s$");
+
