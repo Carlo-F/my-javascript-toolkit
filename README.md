@@ -10,6 +10,7 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 ## Mini projects
 
 - Leet translator (*work in progress)
+- URL parser
 
 ## Basics
 
