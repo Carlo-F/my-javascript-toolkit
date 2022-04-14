@@ -24,10 +24,12 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - Arrays
 - Pattern matching
 - Useful methods
+- Localization
 
 ## Documentation
 
 - Pattern matching syntax table
+- Console
 
 ----
 
