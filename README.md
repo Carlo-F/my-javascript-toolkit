@@ -25,6 +25,7 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - Pattern matching
 - Useful methods
 - Localization
+- Url
 
 ## Documentation
 
