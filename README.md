@@ -26,6 +26,7 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - Useful methods
 - Localization
 - Url
+- Generator
 
 ## Documentation
 
