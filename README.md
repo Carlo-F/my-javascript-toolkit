@@ -27,6 +27,8 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - Localization
 - Url
 - Generator
+- EventListener
+- Promise
 
 ## Documentation
 
