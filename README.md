@@ -11,6 +11,7 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 
 - Leet translator (*work in progress)
 - URL parser
+- ToggleTheme (switch between Dark and Light Theme, enabling/disabling related .css files)
 
 ## Basics
 
