@@ -26,15 +26,15 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 
 ## Advanced
 
-- Pattern matching
-- Useful methods
-- Localization
-- Url
-- Generator
-- Events
-- Promise
-- Proxy
-- Web components
+- [Pattern matching](pattern-matching.js)
+- [Useful methods](useful-methods.js)
+- [Localization](localization.js)
+- [Url](url.js)
+- [Generator](generator.js)
+- [Events](events.js)
+- [Promise](promise.js)
+- [Proxy](proxy.js)
+- [Web components](web-components.js)
 
 ## Documentation
 
