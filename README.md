@@ -4,25 +4,25 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 
 ## APIs
 
-- Intersection Observer API. [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
-- Set Timeout. [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
+- [Intersection Observer API](intersection-observer-api). [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+- [Set Timeout](set-timeout). [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 
 ## Mini projects
 
-- Leet translator (*work in progress)
-- URL parser
-- ToggleTheme (switch between Dark and Light Theme, enabling/disabling related .css files)
+- [Leet translator](leet-translator) (*work in progress)
+- [URL parser](url-parser)
+- [ToggleTheme](toggleTheme) (switch between Dark and Light Theme, enabling/disabling related .css files)
 
 ## Basics
 
-- Math
-- Date
-- Strings
-- Operators
-- Statements
-- Objects
-- Classes
-- Arrays
+- [Math](math.js)
+- [Date](date.js)
+- [String](string.js)
+- [Operators](operators.js)
+- [Statements](statements.js)
+- [Object](object.js)
+- [Class](class.js)
+- [Array](array.js)
 
 ## Advanced
 
@@ -38,8 +38,8 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 
 ## Documentation
 
-- Pattern matching syntax table
-- Console
+- [Pattern matching syntax table](pattern-matching-syntax-table.md)
+- [Console](console.md)
 
 ----
 
