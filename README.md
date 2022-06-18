@@ -23,6 +23,9 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - Objects
 - Classes
 - Arrays
+
+## Advanced
+
 - Pattern matching
 - Useful methods
 - Localization
@@ -31,6 +34,7 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - Events
 - Promise
 - Proxy
+- Web components
 
 ## Documentation
 
