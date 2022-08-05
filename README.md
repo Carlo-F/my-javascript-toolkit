@@ -35,6 +35,7 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - [Promise](promise.js)
 - [Proxy](proxy.js)
 - [Web components](web-components.js)
+- [Server sent Event](server-sent-event.js)
 
 ## Documentation
 
