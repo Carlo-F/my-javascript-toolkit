@@ -36,6 +36,7 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - [Proxy](proxy.js)
 - [Web components](web-components.js)
 - [Server sent Event](server-sent-event.js)
+- [WebSocket Api] (webSocket-api.js)
 
 ## Documentation
 
