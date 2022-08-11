@@ -6,7 +6,7 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 
 - [Intersection Observer API](intersection-observer-api). [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 - [Set Timeout](set-timeout). [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
-- [WebSocket Api] (webSocket-api.js). [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+- [WebSocket Api](webSocket-api.js). [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
 ## Mini projects
 
