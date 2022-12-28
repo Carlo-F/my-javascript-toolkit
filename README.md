@@ -13,6 +13,7 @@ A collection of interesting JavaScript stuff (helpers, tools, mini-projects, etc
 - [Leet translator](leet-translator) (*work in progress)
 - [URL parser](url-parser)
 - [ToggleTheme](toggleTheme) (switch between Dark and Light Theme, enabling/disabling related .css files)
+- [Dynamic components](dynamic-components)
 
 ## Basics
 
