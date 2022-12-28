@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic components in JS</title>
+</head>
+<body>
+    <h1>Dynamic components in vanilla ES6 JS</h1>
+    <h4>Create components that change dynamically, with internal state, methods and properties</h4>
+    <div id="container">
+
+    </div>
+    <script>
+        const BUTTONS = [
+            {label: 'button1', value: 0},
+            {label: 'button2', value: 0}
+        ]
+
+        const UPDATE_BUTTON_LIST = () => document.querySelector('#container').innerHTML = buttonList.render();
+
+        document.collection = { };
+        document.nextId = 0;
+
+        class Component {
+            constructor() {
+                this._id = ++document.nextId;
+                document.collection[this._id] = this;
+            }
+        }
+
+        class ButtonList {
+            constructor(props,buttons) {
+                this.buttons = buttons;
+                this.state = {
+
+                }
+            }
+
+            render() {
+                return `<div class="buttonList">
+                        ${
+                            this.buttons.length > 0 ?
+                            this.buttons.map((button) => button.render()).join('') :
+                            "<h4>Nothing to render</h4>"
+                        }
+                        </div>`
+            }
+        }
+
+class Button extends Component {
+
+    constructor(props) {
+        super();
+
+        this.state = {
+            label: props.label,
+            count: props.value
+        }
+    }
+
+    render() {
+        return `
+        <button type="button" onclick="document.collection[${this._id}].incrementCount()">
+            ${this.state.label} hits: ${this.state.count}
+        </button>
+        `
+    }
+
+    incrementCount() {
+        this.state.count++
+        console.log(`${this.state.label} hit`);
+        UPDATE_BUTTON_LIST();
+    }
+
+}
+
+let buttonList = new ButtonList(
+    [],
+    BUTTONS.map((button) => new Button(button))
+);
+
+UPDATE_BUTTON_LIST(); //initial rendering
+    </script>
+</body>
+</html>
