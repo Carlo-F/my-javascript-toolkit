@@ -23,6 +23,15 @@ const someFruitsAreFinished = fruits.some(fruit => fruit.quantity === 0);
 const everyFruitIsAvailable = fruits.every(fruit => fruit.quantity > 0);
 
 const orderedFruitsByQuantity = fruits.sort((a, b) => b.quantity - a.quantity);
+const orderedFruitsByName = fruits.sort((a, b) => {
+  if (a.name < b.name) {
+    return -1;
+  }
+  if (a.name > b.name) {
+    return 1;
+  }
+  return 0;
+});
 
 const total = numbers.reduce((a, b) => a + b, 0);
 
